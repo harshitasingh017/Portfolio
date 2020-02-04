@@ -1,40 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
 body{
-    
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(images/main.gif);
-    
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/main.gif);
+    background-color: black;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(images/23.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/23.jpg);
     background-size: cover;
-    background-attachment: fixed;
-    
+    height: 100vh;
+    margin-top: 0;
+}
+
+.nav{
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    background: #191717;
+    padding-top: 180px;
+    display: block; 
+}
+
+.nav ul li {
+    color: #b4aeae;
+    list-style: none;
+    padding: 12px 18px;
+    margin-right: 0; 
+} 
+
+i{
+    color: #747070;
+    font-size: 20px;
 }
 
 h1{
-   font-family: 'Acme', sans-serif;
-    font-size: 60px;
-    color: aliceblue;
-    margin-top: 200px;
-    margin-left: 60px;
-    word-spacing: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 70px;
+    color: white;
+    padding-top: 30px;
+    margin-top: 280px;
+    margin-left: 150px;
+    word-spacing: 4px;
     letter-spacing: 2px;
     margin-bottom: 0px;
-    
-    
+    position: absolute;
 }
 
 p{
-    
+    font-family: 'PT Serif', serif;  
     font-size: 25px;
-    color: #f57777;
-    margin-left: 60px;
-    margin-top: 0;
-    margin-bottom: 10px;
+    color: #48e618;
+    margin-left: 150px;
+    margin-top: 465px;
+    word-spacing: 4px;
+    display: inline-block;  
 }
-
+/*
 button{
      margin-left: 60px;
     background: none;
     color: #51e83e;
-    width: 120px;
+    width: 150px;
     height: 50px;
     border: 1px solid #338033;
     font-size: 18px;
@@ -46,18 +73,21 @@ button{
     color: white;
     background-color: #e67e22;
     position: absolute;
-   font-family: 'Acme', sans-serif;
+   font-family: 'Carter One', cursive;
 }
-
+*/
 a
 {
     color: white;
-    text-decoration: none;
-   
+    text-decoration: none; 
 }
 
 
 button:hover{
     background-color: #6b7072;
+}
+
+.container li a{
+    color: black;
 }
 
